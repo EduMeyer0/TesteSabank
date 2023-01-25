@@ -1,0 +1,38 @@
+table.table .rows {
+  cursor: pointer;
+}
+  
+.nounderline-black {
+  text-decoration: none !important;
+  color: #212529;
+}
+  
+.nounderline-white {
+  text-decoration: none !important;
+  color: #FFFFFF;
+  pointer-events: auto;
+}
+  
+#page-container {
+  position: relative;
+  min-height: 100vh;
+}
+  
+#content-wrap {
+  padding-bottom: 12.5rem;
+}
+  
+#footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 12.5rem;
+}
+
+input[readonly] {
+  background-color: #EEEEEE;
+}
+
+.not-clickable {
+  pointer-events: none;
+}
